@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>operators&expressions</title>
+    </head>
+    <body>
+        <p><h1><u>1)Operators and Expressions</u></h1></p>
+        <p><h1>i)Add two numbers</h1></br>You are provided with two numbers A and B.Your task is to add these two numbers.</br><b>Note</b>:You have to complete <b>AddTwoNumbers</b>function.No need to take any input.</p>
+        <p><h1>Input Format</h1></br>The first line contains two integers A and B.</p>
+        <p><h1>Output Format</h1></br>Return the result after adding two numbers.</p>
+        <p><h1>Constraints</h1></br>1<=A,B<=500</p>
+        <p><h1>Time Limit</h1></br>1 second</p>
+        <p><h1>Example</h1></br>Sample Input</br>2 5</br>Sample Output</br>7</p>
+        <p>CODE</p>
+        <p>const AddTwoNumbers = (a,b) => {</br>return a+b;</br>};</p>
+        <p>OUTPUT</p>
+        <p>Input</br>2 5</br>Output</br>7</p><hr>
+        
+        <p><h1>ii)Find if the conditions are obeyed or not?</h1></br>You are given two number first as A and second as B and check if both conditions (A<10 and A>B) are satisfied or not with the help of operators.</br><b>Note</b>:You have to complete <b>is_Valid</b>function.No need to take any input.</h1></p>
+        <p><h1>Input Format</h1></br>The first line contains two integers A nad B.</p>
+        <p><h1>Output Format</h1></br>Return the result as true if the given condition gets satisfied,else false.</p>
+        <p><h1>Constraints</h1></br>1<=A,B<=500</p>
+        <p><h1>Time Limit</h1></br>1 second</p>
+        <p><h1>Example</h1></br>Sample Input</br>5 3</br>Sample Output</br>true</p>
+        <p>CODE</p>
+        <p>const Is_Valid = (a,b) => {</br>return return (a<10) && (a>b);;</br>};</p>
+        <p>OUTPUT</p>
+        <p>Input</br>5 3</br>Output</br>true</p><hr>
+        
+        <p><h1>iii)Check the conditions</h1></br>You are given two numbers A and B.You need to do the following checks:</br>1.if both are divisible by 10 console true.</br>2.if both are not divisible by 10 console false.</br>3.if one of them only is divisible by 10 console true.</br>Use operator to do this.</br><b>Note</b>:You have to complete <b>Check</b>function.No need to take any input.</p>
+        <p><h1>Input Format</h1></br>The first line contains two natural numbers A and B.</p>
+        <p><h1>Output Format</h1></br>Return the required result.</p>
+        <p><h1>Constraints</h1></br>1<=A,B<=10000</p>
+        <p><h1>Time Limit</h1></br>1 second</p>
+        <p><h1>Example</h1></br>Sample Input</br>12 20</br>Sample Output</br>true</p>
+        <p>CODE</p>
+        <p>const Check = (A,B) =>{</br>return (A%10===0) || (B%10===0);};</p>
+        <p>OUTPUT</p>
+        <p>Input</br>12 20</br>Output</br>true</p><hr>
+    
+        <p><h1>iv)Find the first digit of a 4 digit number</br></h1>You are provided a four digit number N only.Your task is to print out the first digit of that number.<b>Note</b>:You have to complete <b>First_Digit</b> function.No need to take any input.</h1></p>
+        <p><h1>Input Format</h1></br>The first line contains one four digit natural number N.</p>
+        <p><h1>Output Format</h1></br>Return the required result.</p>
+        <p><h1>Constraints</h1></br>1000 ≤ N ≤ 9999</p>
+        <p><h1>Time Limit</h1></br>1 second</p>
+        <p><h1>Example</h1></br>Sample Input</br>4567</br>Sample Output</br>4</p>
+        <p>CODE</p>
+        <p>const First_Digit = (n) => {</br>return Math.floor(n/1000);</br>};</p>
+        <p>OUTPUT</p>
+        <p>Input</br>4567</br>Output</br>4</p><hr>
+    
+        <p><h1>v)Find the last digit of a 4 digit number</h1></br>You are provided a four digit number N only. Your task is to print out the last digit of that number.</br><b>Note</b>: You have to complete <b>Last_Digit</b> function. No need to take any input.</p>
+        <p><h1>Input Format</h1></br>The first line contains one four digit natural number N.</p>
+        <p><h1>Output Format</h1></br>Return the required result.</p>
+        <p><h1>Constraints</h1>1000 ≤ N ≤ 9999</p>
+        <p><h1>Time Limit</h1>1 second</p>
+        <p><h1>Example</h1>Sample Input</br>4567</br>Sample Output</br>7</p>
+        <p>CODE</p>
+        <p>const Last_Digit = (n) => {</br>while(n>=10){</br> n=n%10;</br> }</br>return n;</br>};</p>
+        <p>OUTPUT</p>
+        <p>Input</br>4567</br>Output</br>7</p><hr>
+    
+        <p><h1>vi)Find the remainder</h1></br>You are provided with two numbers A and B where A as  divisor and B as  dividend.Your task is find the remainder.</br><b>Note</b>: You have to complete <b>Find_the_remainder</b> function. No need to take any input.</p>
+        <p><h1>Input Format</h1></br>The first line of the input contains two integers A and B.</p>
+        <p><h1>Output Format</h1></br>Return the result after finding the remainder.</p>
+        <p><h1>Constraints</h1></br>1 ≤ A,B ≤ 1000</p>
+        <p><h1>Time Limit</h1></br>1 second</p>
+        <p><h1>Example</h1></br>Sample Input</br>2 9</br>Sample Output</br>1</p>
+        <p>CODE</p>
+        <p>const Find_the_remainder = (a,b) => {</br>return b%a;</br>};</p>
+        <p>OUTPUT</p>
+        <p>Input</br>2 9</br>Output</br>1</p><hr>
+    
+        <p><h1>vii)Multiply two numbers</h1></br>You are provided with two numbers A and B. Your task is to multiply these two numbers.</br><b>Note</b>: You have to complete <b>Multiply_two_number</b> function. No need to take any input.</p>
+        <p><h1>Input Format</h1></br>The first line contains two integers A and B.</p>
+        <p><h1>Output Format</h1></br>Return the result after multiplying two numbers.</p>
+        <p><h1>Constraints</h1></br>1 ≤ A,B ≤ 30</p>
+        <p><h1>Time Limit</h1></br>1 second</p>
+        <p><h1>Example</h1></br>Sample Input</br>2 5</br>Sample Output</br>10</p>
+        <p>CODE</p>
+        <p>const Multiply_two_number = (a,b) => {</br>return a*b;</br>};</p>
+        <p>OUTPUT</p>
+        <p>Input</br>2 5</br>Output</br>10</p><hr>
+    
+        <p><h1>viii)Marks Calculator</h1></br>Shyam has got his marks in three subjects as A,B,and C (out of 100).Write a program to calculate his total marks and his average.</br><b>Note</b>: You have to complete <b>Sum</b> and <b>Average</b> functions. No need to take any input.</p>
+        <p><h1>Input Format</h1></br>The input contains three numbers A,B and C.</p>
+        <p><h1>Output Format</h1></br>Return the required result.</p>
+        <p><h1>Constraints</h1></br>0 ≤ A,B,C ≤ 100</p>
+        <p><h1>Time Limit</h1></br>1 second</p>
+        <p><h1>Example</h1></br>Sample Input</br>50 20 100</br>Sample Output</br>170</br>56.67</p>
+        <p>CODE</p>
+        <p>const Sum = (A, B, C) =></br>{return A+B+C;</br>};</br>const Average = (A, B, C) => </br>{return ((A+B+C)/3);</br>};</p>
+        <p>OUTPUT</p>
+        <p>Input</br>50 20 100</br>Output</br>170</br>56.67</p><hr>
+    
+    
+    
+    
+    </body>
+
+
+    </html>
